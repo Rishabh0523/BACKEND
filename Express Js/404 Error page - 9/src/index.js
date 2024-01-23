@@ -10,7 +10,7 @@ const port = 8000;
 const templatePath = path.join(__dirname, './templates')
 const partialPath = path.join(__dirname, '../templates/partials')
 
-// How to chnange views name
+// How to chnange views name here hbs means handlebars
 
 app.set('view engine' , 'hbs');
 app.set('views ' , templatePath);
