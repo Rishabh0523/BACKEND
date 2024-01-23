@@ -5,7 +5,7 @@ const app =express();
 
 const port = 8000;
 
-// to set the view engine
+// to set the view engine we use partilpath matter
 
 const templatePath = path.join(__dirname, './templates')
 const partialPath = path.join(__dirname, '../templates/partials')
